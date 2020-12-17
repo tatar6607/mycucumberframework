@@ -1,0 +1,119 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-17T23:18:36.140Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;2",
+        "after": [
+          {
+            "result": {
+              "duration": 626000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12623000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2816000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 687000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify result has \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Single Data table",
+    "description": "",
+    "id": "single-data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/google_search_single_datatable.feature",
+    "tags": [
+      {
+        "name": "@datatable1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]

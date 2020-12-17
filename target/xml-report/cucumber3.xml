@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.702">
+<testcase classname="Single Data table" name="TC01_ google search test" time="16.765">
+<system-out><![CDATA[Given user is in the google page............................................passed
+And user searches "Selenium"................................................passed
+Then verify result has "Selenium"...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
